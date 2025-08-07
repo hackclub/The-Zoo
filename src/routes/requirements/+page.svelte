@@ -1,4 +1,5 @@
 <svelte:head>
+    <link rel="stylesheet" href="https://css.hackclub.com/theme.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0&icon_names=list_alt_check,pets" />
 </svelte:head>
 <script>
@@ -57,8 +58,8 @@
     <h2 style="font-family: Phantom Sans;">Below are the base requirements to ship and submit your project</h2>
     <br><br>
     <div class="rule">
-        <h2>5 Hours</h2>
-        <h3>You must log at least 5 full hours of coding for your project on <a href="https://hackatime.hackclub.com">Hackatime</a>. More hours are encouraged and rewarded!</h3>
+        <h2>8 Hours</h2>
+        <h3>You must log at least 8 full hours of coding for your project on <a href="https://hackatime.hackclub.com">Hackatime</a>. More hours are encouraged and rewarded!</h3>
     </div>
     <div class="rule">
         <h2>SvelteKit and Static</h2>

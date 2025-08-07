@@ -1,4 +1,5 @@
 <svelte:head>
+    <link rel="stylesheet" href="https://css.hackclub.com/theme.css">
     {#each [1,2,3,4,5] as n}
         <link rel="preload" href={`boba/bobaD${n}.png`} as="image" />
     {/each}
@@ -45,6 +46,9 @@
     })
 </script>
 <style>
+    a {
+        color: white;
+    }
     #b1 {
         animation: bee1 3s ease-in-out infinite;
     }
@@ -255,7 +259,7 @@
 </style>
 <Navbar />
 <Banner />
-<div style="postion: relative; user-select: none; margin-bottom: -5px; padding: 0; overflow: clip;">
+<div style="postion: relative; user-select: none; margin-bottom: -10px; padding: 0; overflow: clip;">
     <img src="boba/{ select1 }1.png" style="position: absolute; left: 0; right: 0; width: 100%; height: auto;" alt="Overlay 1"/>
     <img src="boba/{ select1 }2.png" style="position: absolute; left: 0; right: 0; width: 100%; height: auto;" alt="Overlay 2"/>
     <img id="b1" src="boba/{ select1 }3.png" style="position: absolute; left: 0; right: 0; width: 100%; height: auto;" alt="Overlay 3"/>
@@ -281,7 +285,7 @@
     <br><br>
     <h3>Svelte is a web development UI framework that uses a compiler to let you write concise components that do minimal work in the browser, using language syntax you probably already know: HTML, CSS and JS (or TS).</h3>
     <h3>It's a great alternative to React, Vue, and other JS frameworks!</h3>
-    <p>(This website was made with Svelte)</p>
+    <p style="color: white;">(This website was made with Svelte)</p>
     <br>
     <a href="https://svelte.dev"><button><h2>Visit the Svelte Website</h2></button></a>
     <br><br>
@@ -289,8 +293,8 @@
 <div id="countdown">
     <h2>When can I start?</h2>
     <br>
-    <h3>This YSWS is not active or official yet. Check back here for updates soon!</h3>
-    <h4>(Last updated, July 25th)</h4>
+    <h3>Start now! This YSWS ends on August 22nd</h3>
+    <button onclick = { window.location.href = "https://forms.hackclub.com/t/d1ejBB3e9kus" } class="css-mrfv18" style="background-color: rgb(0, 51, 34);"><h2>Submit projects here</h2></button>
     <br>
     <img src="whale.png" alt="Whale Plushie"/>
 </div>

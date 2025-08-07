@@ -1,4 +1,5 @@
 <svelte:head>
+    <link rel="stylesheet" href="https://css.hackclub.com/theme.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0&icon_names=pets" />
 </svelte:head>
 <script>
@@ -63,7 +64,7 @@
     <br>
     <img src="mynt.png" alt="Mynt Coin" id="coin"/>
     <br><br>
-    <h3>In a nutshell, mynts are the currency you earn for your animals in the zoo. The better your submissions are, the more mynts you earn.</h3>
+    <h3>In a nutshell, mynts are the currency you earn for your animals in the zoo. The better your submissions are, the more mynts you earn. You cannot earn greater than 5 MYN per hour of coding.</h3>
     <h3>Throughout the duration of the YSWS, your mynts are added up. By the end, after everything is finalized, you will get an <a href="https://hcb.hackclub.com">HCB</a> grant equivalent to the amount of mynts you earned (1 MYN = 1 USD). Whatever your choice of plushie costs + delivery fees (or just pick it up for less) is the amount of mynts you will need</h3>    <br><br><br>
     <div class="rank" >
         <h3>You can earn</h3>
@@ -80,7 +81,7 @@
         <h1>2 MYN</h1>
         <h3>for</h3>
         <br>
-        <h2>Each additional hour you spend beyond the base requirement of 5 (not beyond 10 hours)</h2>
+        <h2>Each additional hour you spend beyond the base requirement of 8 (not beyond 15 hours)</h2>
         <br>
     </div>
     <div class="rank">
@@ -88,13 +89,13 @@
         <h1>2 MYN</h1>
         <h3>for</h3>
         <br>
-        <h2>Using <code><a href="https://svelte.dev/docs/svelte/svelte-head">svelte:head</a></code></h2>
+        <h2>Using <a href="https://svelte.dev/docs/svelte/svelte-head">svelte:head</a></h2>
         <br>
     </div>
     <div class="rank">
         <h3>You can earn</h3>
         <h1>2 MYN</h1>
-        <h4><em>+ a special prize</em></h4>
+        <h4><em>+ a special badge on the gallery</em></h4>
         <h3>for</h3>
         <br>
         <h2>Making your project about an endangered animal or species</h2>
@@ -145,7 +146,7 @@
         <h1>6 MYN</h1>
         <h3>for</h3>
         <br>
-        <h2>Impressing us with your project</h2>
+        <h2>Impressing us with your project (if you want this, know that AI slop won't pass the vibe check)</h2>
         <br>
     </div>
     <div class="rank">
@@ -154,7 +155,7 @@
         <h3>for</h3>
         <br>
         <h2>Blowing our socks off with how impressive your project is (this is more selective than the Ivy League... so get grinding if you want a shot at this)</h2>
-        <h4>*Cannot be doubled with the 6 MYN bonus</h4>
+        <br><h4>*Cannot be doubled with the 6 MYN bonus</h4>
         <br>
     </div>
 </div>
