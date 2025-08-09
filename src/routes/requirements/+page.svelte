@@ -75,6 +75,10 @@
         <h3><a href="https://raw.githubusercontent.com/lynn89-sudo/red-panda/refs/heads/main/src/lib/Zoo.svelte">This component</a> must be imported (not copy pasted) into the top of each page on your submission (more on components in the guide on Slack)</h3>
     </div>
     <div class="rule">
+        <h2>Include README</h2>
+        <h3>Make a README in your repo which includes an overall description of your project along with descriptions of each interactive element/aspect of your animal (along with how you implemented it)</h3>
+    </div>
+    <div class="rule">
         <h2>Interactive Page</h2>
         <h3>Your site should include a page where users can interact with your dynamic animal in some way, shape, or form. It must have at least one external stimuli and one internal stimuli.</h3>
         <div>
