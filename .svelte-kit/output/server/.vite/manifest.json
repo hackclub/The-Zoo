@@ -1,0 +1,166 @@
+{
+  ".svelte-kit/generated/server/internal.js": {
+    "file": "internal.js",
+    "name": "internal",
+    "src": ".svelte-kit/generated/server/internal.js",
+    "isEntry": true,
+    "imports": [
+      "_internal.js"
+    ]
+  },
+  "_banner.CoVjfk7g.css": {
+    "file": "_app/immutable/assets/banner.CoVjfk7g.css",
+    "src": "_banner.CoVjfk7g.css"
+  },
+  "_banner.js": {
+    "file": "chunks/banner.js",
+    "name": "banner",
+    "css": [
+      "_app/immutable/assets/banner.CoVjfk7g.css"
+    ]
+  },
+  "_equality.js": {
+    "file": "chunks/equality.js",
+    "name": "equality"
+  },
+  "_exports.js": {
+    "file": "chunks/exports.js",
+    "name": "exports",
+    "imports": [
+      "_equality.js"
+    ]
+  },
+  "_footer.fW6PkSmk.css": {
+    "file": "_app/immutable/assets/footer.fW6PkSmk.css",
+    "src": "_footer.fW6PkSmk.css"
+  },
+  "_footer.js": {
+    "file": "chunks/footer.js",
+    "name": "footer",
+    "css": [
+      "_app/immutable/assets/footer.fW6PkSmk.css"
+    ]
+  },
+  "_index.js": {
+    "file": "chunks/index.js",
+    "name": "index"
+  },
+  "_internal.js": {
+    "file": "chunks/internal.js",
+    "name": "internal",
+    "imports": [
+      "_index.js",
+      "_equality.js"
+    ]
+  },
+  "node_modules/@sveltejs/kit/src/runtime/components/svelte-5/error.svelte": {
+    "file": "entries/fallbacks/error.svelte.js",
+    "name": "entries/fallbacks/error.svelte",
+    "src": "node_modules/@sveltejs/kit/src/runtime/components/svelte-5/error.svelte",
+    "isEntry": true,
+    "imports": [
+      "_index.js",
+      "_equality.js",
+      "_exports.js"
+    ]
+  },
+  "node_modules/@sveltejs/kit/src/runtime/components/svelte-5/layout.svelte": {
+    "file": "entries/fallbacks/layout.svelte.js",
+    "name": "entries/fallbacks/layout.svelte",
+    "src": "node_modules/@sveltejs/kit/src/runtime/components/svelte-5/layout.svelte",
+    "isEntry": true
+  },
+  "node_modules/@sveltejs/kit/src/runtime/server/index.js": {
+    "file": "index.js",
+    "name": "index",
+    "src": "node_modules/@sveltejs/kit/src/runtime/server/index.js",
+    "isEntry": true,
+    "imports": [
+      "_index.js",
+      "_internal.js",
+      "_exports.js"
+    ]
+  },
+  "src/routes/+page.svelte": {
+    "file": "entries/pages/_page.svelte.js",
+    "name": "entries/pages/_page.svelte",
+    "src": "src/routes/+page.svelte",
+    "isEntry": true,
+    "imports": [
+      "_index.js",
+      "_footer.js",
+      "_banner.js"
+    ],
+    "css": [
+      "_app/immutable/assets/_page.xqyQY233.css"
+    ]
+  },
+  "src/routes/alternative/+page.svelte": {
+    "file": "entries/pages/alternative/_page.svelte.js",
+    "name": "entries/pages/alternative/_page.svelte",
+    "src": "src/routes/alternative/+page.svelte",
+    "isEntry": true,
+    "imports": [
+      "_index.js",
+      "_footer.js",
+      "_banner.js"
+    ],
+    "css": [
+      "_app/immutable/assets/_page.BHE95JZ7.css"
+    ]
+  },
+  "src/routes/fraud/+page.svelte": {
+    "file": "entries/pages/fraud/_page.svelte.js",
+    "name": "entries/pages/fraud/_page.svelte",
+    "src": "src/routes/fraud/+page.svelte",
+    "isEntry": true,
+    "imports": [
+      "_index.js",
+      "_footer.js"
+    ],
+    "css": [
+      "_app/immutable/assets/_page.CsI5Am_c.css"
+    ]
+  },
+  "src/routes/mynts/+page.svelte": {
+    "file": "entries/pages/mynts/_page.svelte.js",
+    "name": "entries/pages/mynts/_page.svelte",
+    "src": "src/routes/mynts/+page.svelte",
+    "isEntry": true,
+    "imports": [
+      "_index.js",
+      "_footer.js",
+      "_banner.js"
+    ],
+    "css": [
+      "_app/immutable/assets/_page.Dzt0ToAm.css"
+    ]
+  },
+  "src/routes/privacy/+page.svelte": {
+    "file": "entries/pages/privacy/_page.svelte.js",
+    "name": "entries/pages/privacy/_page.svelte",
+    "src": "src/routes/privacy/+page.svelte",
+    "isEntry": true,
+    "imports": [
+      "_index.js",
+      "_footer.js"
+    ],
+    "css": [
+      "_app/immutable/assets/_page.CdmjWnvN.css"
+    ]
+  },
+  "src/routes/requirements/+page.svelte": {
+    "file": "entries/pages/requirements/_page.svelte.js",
+    "name": "entries/pages/requirements/_page.svelte",
+    "src": "src/routes/requirements/+page.svelte",
+    "isEntry": true,
+    "imports": [
+      "_index.js",
+      "_footer.js",
+      "_banner.js"
+    ],
+    "css": [
+      "_app/immutable/assets/_page.BOE9-tN8.css"
+    ]
+  }
+}
