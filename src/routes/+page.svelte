@@ -291,10 +291,9 @@
     <br><br>
 </div>
 <div id="countdown">
-    <h2>When can I start?</h2>
+    <h2>This YSWS is no longer active</h2>
     <br>
-    <h3>Start now! This YSWS ends on August 22nd</h3>
-    <button onclick = { window.location.href = "https://forms.hackclub.com/t/d1ejBB3e9kus" } class="css-mrfv18" style="background-color: rgb(0, 51, 34);"><h2>Submit projects here</h2></button>
+    <h3>If you submitted, check the Mynt Tab tab in #the-zoo channel on Slack to see your balance and any comments. HCB grants have not yet been distributed.</h3>
     <br>
     <img src="whale.png" alt="Whale Plushie"/>
 </div>
