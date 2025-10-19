@@ -29,9 +29,6 @@
         padding: 20px;
         margin-bottom: 20px;
     }
-    a {
-        color: white;
-    }
 </style>
 
 <Navbar />
@@ -41,8 +38,6 @@
     <br><br>
     <h1>The Zoo, for Hack Clubs</h1>
     <h3>For clubs, by a club leader</h3>
-    <br><br><br>
-    <h3>The Zoo is dedicated to keeping your personal information secure and safe, and committed to having 0 data breach incidents. Below are our privacy policies for handling your data.</h3>
     <br>
     <div class="policy">
         <h2>Page coming soon!</h2>

@@ -8,7 +8,7 @@ function _page($$payload) {
   Navbar($$payload);
   $$payload.out.push(`<!----> `);
   Banner($$payload);
-  $$payload.out.push(`<!----> <div id="body" class="svelte-1h0d3iq"><h1 class="svelte-1h0d3iq"><span translate="no" class="material-symbols-outlined svelte-1h0d3iq">groups</span></h1> <br/><br/> <h1 class="svelte-1h0d3iq">The Zoo, for Hack Clubs</h1> <h3>For clubs, by a club leader</h3> <br/><br/><br/> <h3>The Zoo is dedicated to keeping your personal information secure and safe, and committed to having 0 data breach incidents. Below are our privacy policies for handling your data.</h3> <br/> <div class="policy svelte-1h0d3iq"><h2>Page coming soon!</h2> <h3>This is part of The Zoo v2</h3></div> <h2>More questions?</h2> <h3>Hop onto <em>#the-zoo</em> channel in Hack Club's Slack</h3></div> `);
+  $$payload.out.push(`<!----> <div id="body" class="svelte-qiba9q"><h1 class="svelte-qiba9q"><span translate="no" class="material-symbols-outlined svelte-qiba9q">groups</span></h1> <br/><br/> <h1 class="svelte-qiba9q">The Zoo, for Hack Clubs</h1> <h3>For clubs, by a club leader</h3> <br/> <div class="policy svelte-qiba9q"><h2>Page coming soon!</h2> <h3>This is part of The Zoo v2</h3></div> <h2>More questions?</h2> <h3>Hop onto <em>#the-zoo</em> channel in Hack Club's Slack</h3></div> `);
   Footer($$payload);
   $$payload.out.push(`<!---->`);
 }
