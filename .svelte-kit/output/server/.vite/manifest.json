@@ -30,15 +30,18 @@
       "_equality.js"
     ]
   },
-  "_footer.fW6PkSmk.css": {
-    "file": "_app/immutable/assets/footer.fW6PkSmk.css",
-    "src": "_footer.fW6PkSmk.css"
+  "_footer.O6Nio1_6.css": {
+    "file": "_app/immutable/assets/footer.O6Nio1_6.css",
+    "src": "_footer.O6Nio1_6.css"
   },
   "_footer.js": {
     "file": "chunks/footer.js",
     "name": "footer",
+    "imports": [
+      "_index.js"
+    ],
     "css": [
-      "_app/immutable/assets/footer.fW6PkSmk.css"
+      "_app/immutable/assets/footer.O6Nio1_6.css"
     ]
   },
   "_index.js": {
@@ -51,17 +54,6 @@
     "imports": [
       "_index.js",
       "_equality.js"
-    ]
-  },
-  "node_modules/@sveltejs/kit/src/runtime/components/svelte-5/error.svelte": {
-    "file": "entries/fallbacks/error.svelte.js",
-    "name": "entries/fallbacks/error.svelte",
-    "src": "node_modules/@sveltejs/kit/src/runtime/components/svelte-5/error.svelte",
-    "isEntry": true,
-    "imports": [
-      "_index.js",
-      "_equality.js",
-      "_exports.js"
     ]
   },
   "node_modules/@sveltejs/kit/src/runtime/components/svelte-5/layout.svelte": {
@@ -79,6 +71,20 @@
       "_index.js",
       "_internal.js",
       "_exports.js"
+    ]
+  },
+  "src/routes/+error.svelte": {
+    "file": "entries/pages/_error.svelte.js",
+    "name": "entries/pages/_error.svelte",
+    "src": "src/routes/+error.svelte",
+    "isEntry": true,
+    "imports": [
+      "_index.js",
+      "_equality.js",
+      "_exports.js"
+    ],
+    "css": [
+      "_app/immutable/assets/_error.Da8k1hI7.css"
     ]
   },
   "src/routes/+page.svelte": {
@@ -107,6 +113,20 @@
     ],
     "css": [
       "_app/immutable/assets/_page.BHE95JZ7.css"
+    ]
+  },
+  "src/routes/clubs/+page.svelte": {
+    "file": "entries/pages/clubs/_page.svelte.js",
+    "name": "entries/pages/clubs/_page.svelte",
+    "src": "src/routes/clubs/+page.svelte",
+    "isEntry": true,
+    "imports": [
+      "_index.js",
+      "_footer.js",
+      "_banner.js"
+    ],
+    "css": [
+      "_app/immutable/assets/_page.DHfXm_uH.css"
     ]
   },
   "src/routes/fraud/+page.svelte": {
