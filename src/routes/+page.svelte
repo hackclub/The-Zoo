@@ -6,7 +6,6 @@
     {#each [1,2,3,4,5] as n}
         <link rel="preload" href={`boba/bobaV${n}.png`} as="image" />
     {/each}
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0&icon_names=arrow_drop_down_circle,pets" />
 </svelte:head>
 <script>
     import Navbar from "$lib/navbar.svelte"
@@ -272,9 +271,9 @@
 <div style="background-color: rgb(230, 177, 30); color: white; padding: 20px;">
     <br>
     <h2 style="font-size: 70px;">Mynts</h2>
-    <h3>are the currency you earn for your animals in the zoo. The better your submissions are, the more mynts you earn</h3>
+    <h3>are the currency you earn for your animals in the zoo. The better your submissions are, the more mynts you earn.</h3>
     <br>
-    <h2><span style="background-color: rgb(100,100,60)">1 MYN = 1 USD</span></h2>
+    <h2><span style="background-color: rgb(100,100,60)">1 MYN = 0.75 USD</span></h2>
     <br><br>
     <button onclick={ window.location.href = "/mynts" }><h2>How do I earn mynts?</h2></button>
     <br><br>
@@ -291,9 +290,9 @@
     <br><br>
 </div>
 <div id="countdown">
-    <h2>This YSWS is no longer active</h2>
+    <h2>V2 of The Zoo is coming soon</h2>
     <br>
-    <h3>If you submitted, check the Mynt Tab tab in #the-zoo channel on Slack to see your balance and any comments. HCB grants have not yet been distributed.</h3>
+    <h3>Once submissions are open, you'll see a link here</h3>
     <br>
     <img src="whale.png" alt="Whale Plushie"/>
 </div>
@@ -317,43 +316,43 @@
     <br><br>
     <div>
         <h2>How many hours minimum do I need to work on my site?</h2>
-        <button onclick = { faq = 1 }><span class="material-symbols-outlined">arrow_drop_down_circle</span></button>
+        <button translate="no" onclick = { faq = 1 }><span class="material-symbols-outlined">arrow_drop_down_circle</span></button>
         <br><br>
-        <h3 class:on = { faq == 1 }>You need to work on your site for at least 5 hours to receive any mynts. All hours must be tracked on <a href="https://hackatime.hackclub.com">Hackatime</a>.</h3>
+        <h3 class:on = { faq == 1 }>You need to work on your site for at least 8 hours to receive any mynts. All hours must be tracked on <a href="https://hackatime.hackclub.com">Hackatime</a>.</h3>
     </div>
     <div>
         <h2>How many mynts do I need to buy a plushie and how do I use them?</h2>
-        <button onclick = { faq = 2 }><span class="material-symbols-outlined">arrow_drop_down_circle</span></button>
+        <button translate="no" onclick = { faq = 2 }><span class="material-symbols-outlined">arrow_drop_down_circle</span></button>
         <br><br>
-        <h3 class:on = { faq == 2 }>Throughout the duration of the YSWS, your mynts are added up. By the end, after everything is finalized, you will get an <a href="https://hcb.hackclub.com">HCB</a> grant equivalent to the amount of mynts you earned (1 MYN = 1 USD). Whatever your choice of plushie costs + delivery fees (or just pick it up for less) is the amount of mynts you will need!</h3>
+        <h3 class:on = { faq == 2 }>Throughout the duration of the YSWS, your mynts are added up. By the end, after everything is finalized, you will get an <a href="https://hcb.hackclub.com">HCB</a> grant equivalent to the amount of mynts you earned (1 MYN = 0.75 USD). Whatever your choice of plushie costs + delivery fees (or just pick it up for less) is the amount of mynts you will need!</h3>
     </div>
     <div>
         <h2>What if I live in a region or country without an Ikea?</h2>
-        <button onclick = { faq = 3 }><span class="material-symbols-outlined">arrow_drop_down_circle</span></button>
+        <button translate="no" onclick = { faq = 3 }><span class="material-symbols-outlined">arrow_drop_down_circle</span></button>
         <br><br>
         <h3 class:on = { faq == 3  }>In the case that you cannot purchase from Ikea due to unviability, you can declare this on your submission form and use your mynts towards services such as Amazon or Shopee instead. No small/local stores though, must be an official service. View <a href="/alternative">this page</a> for more information.</h3>
     </div>
     <div>
         <h2>Can I use Artificial Intelligence to assist me with my project?</h2>
-        <button onclick = { faq = 4 }><span class="material-symbols-outlined">arrow_drop_down_circle</span></button>
+        <button translate="no" onclick = { faq = 4 }><span class="material-symbols-outlined">arrow_drop_down_circle</span></button>
         <br><br>
-        <h3 class:on = { faq == 4 }>Yesnt... You can use AI to help you debug code, however all creative ideas must be original and you cannot copy/paste any AI generated code into your project. If you use any AI, you MUST declare it on your submission form.</h3>
+        <h3 class:on = { faq == 4 }>You can use AI to help you debug code, however all creative ideas must be original and you cannot copy/paste any AI generated code into your project. If you use any AI, you MUST declare it on your submission form.</h3>
     </div>
     <div>
         <h2>How old must I be to participate?</h2>
-        <button onclick = { faq = 5 }><span class="material-symbols-outlined">arrow_drop_down_circle</span></button>
+        <button translate="no" onclick = { faq = 5 }><span class="material-symbols-outlined">arrow_drop_down_circle</span></button>
         <br><br>
         <h3 class:on = { faq == 5 }>You must be in Middle School or High School to participate.</h3>
     </div>
     <div>
         <h2>How many projects can I submit?</h2>
-        <button onclick = { faq = 6 }><span class="material-symbols-outlined">arrow_drop_down_circle</span></button>
+        <button translate="no" onclick = { faq = 6 }><span class="material-symbols-outlined">arrow_drop_down_circle</span></button>
         <br><br>
-        <h3 class:on = { faq == 6 }>You can submit 1 project only. So make it count!</h3>
+        <h3 class:on = { faq == 6 }>You can only submit one project. So make it count!</h3>
     </div>
     <div>
         <h2>What if I have other questions?</h2>
-        <button onclick = { faq = 7 }><span class="material-symbols-outlined">arrow_drop_down_circle</span></button>
+        <button translate="no" onclick = { faq = 7 }><span class="material-symbols-outlined">arrow_drop_down_circle</span></button>
         <br><br>
         <h3 class:on = { faq == 7 }>Hop onto <em>#the-zoo</em> channel in the Hack Club Slack if you have additional questions, or just want to vibe!</h3>
     </div>

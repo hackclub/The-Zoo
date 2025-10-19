@@ -53,7 +53,7 @@
 <div id="body">
     <h2 style="font-size: 40px;">Project Requirements</h2>
     <br><br>
-    <h1><span class="material-symbols-outlined">list_alt_check</span></h1>
+    <h1 translate="no"><span class="material-symbols-outlined">list_alt_check</span></h1>
     <br><br><br>
     <h2 style="font-family: Phantom Sans;">Below are the base requirements to ship and submit your project</h2>
     <br><br>
@@ -63,12 +63,12 @@
     </div>
     <div class="rule">
         <h2>SvelteKit and Static</h2>
-        <h3>You should use Svelte/SvelteKit to make your app (this is a given). Documentation can be found <a href="https://svelte.dev">here</a>.</h3>
+        <h3>You must use SvelteKit to make your app (Vite does not pass the vibe check). Documentation can be found <a href="https://svelte.dev">here</a>.</h3>
         <h3>Your site should be static, and hosted on a service such as Github Pages.</h3>
     </div>
     <div class="rule">
-        <h2>Themed around Animals</h2>
-        <h3>This is also a given. Your site must be themed around an animal, real or imaginary. No vulgar, violent or distressing content is allowed and no specific people can be incorporated without their explicit permission.</h3>
+        <h2>Themed around Endangered Animals</h2>
+        <h3>Your site must be themed around an animal that is considered endangered or at risk. Note that no vulgar, violent or distressing content is allowed.</h3>
     </div>
     <div class="rule">
         <h2>Include The Zoo Banner Component</h2>

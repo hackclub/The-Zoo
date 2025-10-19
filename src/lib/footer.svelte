@@ -28,11 +28,11 @@
     }
 </style>
 <div id="bdy">
-    <button onclick = { window.location.href = "https://hackclub.com" }><h4>Hack Club</h4></button>
-    <h5>The Zoo is built with love for teens, by teens</h5>
-    <span class="material-symbols-outlined">
+    <button translate="no" onclick = { window.location.href = "https://hackclub.com" }><h4>Hack Club</h4></button>
+    <h5>The Zoo is built with love; for teens, by teens</h5>
+    <span translate="no" class="material-symbols-outlined">
         pets
     </span>
     <br><br>
-    <h4><a href="/fraud">Fraud Disclaimer</a> | <a href="/privacy">Privacy Policies</a></h4>
+    <nav><a href="/fraud">Fraud Disclaimer</a> | <a href="/privacy">Privacy Policies</a></nav>
 </div>

@@ -64,8 +64,8 @@
     <br>
     <img src="mynt.png" alt="Mynt Coin" id="coin"/>
     <br><br>
-    <h3>In a nutshell, mynts are the currency you earn for your animals in the zoo. The better your submissions are, the more mynts you earn. You cannot earn greater than 5 MYN per hour of coding.</h3>
-    <h3>Throughout the duration of the YSWS, your mynts are added up. By the end, after everything is finalized, you will get an <a href="https://hcb.hackclub.com">HCB</a> grant equivalent to the amount of mynts you earned (1 MYN = 1 USD). Whatever your choice of plushie costs + delivery fees (or just pick it up for less) is the amount of mynts you will need</h3>    <br><br><br>
+    <h3>In a nutshell, mynts are the currency you earn for your animals in the zoo. The better your submissions are, the more mynts you earn.</h3>
+    <h3>Throughout the duration of the YSWS, your mynts are added up. By the end, after everything is finalized, you will get an <a href="https://hcb.hackclub.com">HCB</a> grant equivalent to the amount of mynts you earned (1 MYN = 0.75 USD). Whatever your choice of plushie costs + delivery fees (or just pick it up for less) is the amount of mynts you will need</h3>    <br><br><br>
     <div class="rank" >
         <h3>You can earn</h3>
         <h1>15 MYN</h1>
@@ -90,15 +90,6 @@
         <h3>for</h3>
         <br>
         <h2>Using <a href="https://svelte.dev/docs/svelte/svelte-head">svelte:head</a></h2>
-        <br>
-    </div>
-    <div class="rank">
-        <h3>You can earn</h3>
-        <h1>2 MYN</h1>
-        <h4><em>+ a special badge on the gallery</em></h4>
-        <h3>for</h3>
-        <br>
-        <h2>Making your project about an endangered animal or species</h2>
         <br>
     </div>
     <div class="rank">
@@ -138,7 +129,7 @@
         <h1>4 MYN</h1>
         <h3>for</h3>
         <br>
-        <h2>Making your project responsive (must work on mobile)</h2>
+        <h2>Making your project responsive (must work well on mobile, not just at a basic level)</h2>
         <br>
     </div>
     <div class="rank">
@@ -155,7 +146,7 @@
         <h3>for</h3>
         <br>
         <h2>Blowing our socks off with how impressive your project is (this is more selective than the Ivy League... so get grinding if you want a shot at this)</h2>
-        <br><h4>*Cannot be doubled with the 6 MYN bonus</h4>
+        <br><h4>*Cannot be combined with the 6 MYN bonus</h4>
         <br>
     </div>
 </div>

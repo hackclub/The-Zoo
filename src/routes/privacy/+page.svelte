@@ -1,6 +1,5 @@
 <svelte:head>
     <link rel="stylesheet" href="https://css.hackclub.com/theme.css">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0&icon_names=lock_person,pets" />
 </svelte:head>
 <script>
     import Navbar from "$lib/navbar.svelte";
@@ -36,9 +35,9 @@
 
 <Navbar />
 <div id="body">
-    <h1><span class="material-symbols-outlined">lock_person</span></h1>
+    <h1><span translate="no" class="material-symbols-outlined">lock_person</span></h1>
     <br><br>
-    <h1>Your privacy matters to us.</h1>
+    <h1>Your privacy is paramount to us.</h1>
     <br><br><br>
     <h3>The Zoo is dedicated to keeping your personal information secure and safe, and committed to having 0 data breach incidents. Below are our privacy policies for handling your data.</h3>
     <br>

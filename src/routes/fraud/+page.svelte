@@ -36,7 +36,7 @@
 
 <Navbar />
 <div id="body">
-    <h1><span class="material-symbols-outlined">assured_workload</span></h1>
+    <h1><span translate="no" class="material-symbols-outlined">assured_workload</span></h1>
     <br><br>
     <h1>Fraud is not tolerated.</h1>
     <br><br><br>
