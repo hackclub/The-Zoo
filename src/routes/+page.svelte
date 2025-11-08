@@ -318,7 +318,7 @@
         <h2>How many hours minimum do I need to work on my site?</h2>
         <button translate="no" onclick = { faq = 1 }><span class="material-symbols-outlined">arrow_drop_down_circle</span></button>
         <br><br>
-        <h3 class:on = { faq == 1 }>You need to work on your site for at least 8 hours to receive any mynts. All hours must be tracked on <a href="https://hackatime.hackclub.com">Hackatime</a>.</h3>
+        <h3 class:on = { faq == 1 }>You need to work on your site for at least 10 hours to receive any mynts. All hours must be tracked on <a href="https://hackatime.hackclub.com">Hackatime</a>.</h3>
     </div>
     <div>
         <h2>How many mynts do I need to buy a plushie and how do I use them?</h2>

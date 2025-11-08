@@ -84,7 +84,7 @@
       "_exports.js"
     ],
     "css": [
-      "_app/immutable/assets/_error.Da8k1hI7.css"
+      "_app/immutable/assets/_error.C4nPqAcL.css"
     ]
   },
   "src/routes/+page.svelte": {
@@ -122,11 +122,10 @@
     "isEntry": true,
     "imports": [
       "_index.js",
-      "_footer.js",
-      "_banner.js"
+      "_footer.js"
     ],
     "css": [
-      "_app/immutable/assets/_page.MIhz30hh.css"
+      "_app/immutable/assets/_page.D_VeCyKA.css"
     ]
   },
   "src/routes/fraud/+page.svelte": {

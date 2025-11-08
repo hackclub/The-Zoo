@@ -95,11 +95,11 @@
 <nav id="navbar" class="active">
     <a href= "./"><img id = "logo" src="logo.png" alt="Logo"/></a>
     <div id="buttons">
-        <button translate = "no" class="navbutton" onclick = { window.location.href = "/" }><span class="material-symbols-outlined">home</span></button>
-        <button translate = "no" class="navbutton" onclick = { window.location.href = "/mynts" }><span class="material-symbols-outlined">poker_chip</span></button>
-        <button translate = "no" class="navbutton" onclick = { window.location.href = "/requirements" }><span class="material-symbols-outlined">docs</span></button>
-        <button translate = "no" class="navbutton" onclick = { window.location.href = "/alternative" }><span class="material-symbols-outlined">package</span></button>
-        <button translate = "no" class="navbutton" onclick = { window.location.href = "/clubs" }><span class="material-symbols-outlined">groups</span></button>
+        <button translate = "no" class="navbutton" title="Home" onclick = { window.location.href = "/" }><span class="material-symbols-outlined">home</span></button>
+        <button translate = "no" class="navbutton" title="Mynts" onclick = { window.location.href = "/mynts" }><span class="material-symbols-outlined">poker_chip</span></button>
+        <button translate = "no" class="navbutton" title="Requirements" onclick = { window.location.href = "/requirements" }><span class="material-symbols-outlined">docs</span></button>
+        <button translate = "no" class="navbutton" title="Shipping" onclick = { window.location.href = "/alternative" }><span class="material-symbols-outlined">package</span></button>
+        <button translate = "no" class="navbutton" title="Clubs" onclick = { window.location.href = "/clubs" }><span class="material-symbols-outlined">groups</span></button>
     </div>
 </nav>
 <div id="spacing"></div>

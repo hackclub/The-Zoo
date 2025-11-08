@@ -58,8 +58,8 @@
     <h2 style="font-family: Phantom Sans;">Below are the base requirements to ship and submit your project</h2>
     <br><br>
     <div class="rule">
-        <h2>8 Hours</h2>
-        <h3>You must log at least 8 full hours of coding for your project on <a href="https://hackatime.hackclub.com">Hackatime</a>. More hours are encouraged and rewarded!</h3>
+        <h2>10 Hours</h2>
+        <h3>You must log at least 10 full hours of coding for your project on <a href="https://hackatime.hackclub.com">Hackatime</a>. More hours are encouraged and rewarded!</h3>
     </div>
     <div class="rule">
         <h2>SvelteKit and Static</h2>
@@ -68,7 +68,7 @@
     </div>
     <div class="rule">
         <h2>Themed around Endangered Animals</h2>
-        <h3>Your site must be themed around an animal that is considered endangered or at risk. Note that no vulgar, violent or distressing content is allowed.</h3>
+        <h3>Your site must be themed around an animal that is considered endangered or at risk. Note that no vulgar, violent, or distressing content is allowed.</h3>
     </div>
     <div class="rule">
         <h2>Include The Zoo Banner Component</h2>
@@ -80,7 +80,7 @@
     </div>
     <div class="rule">
         <h2>Interactive Page</h2>
-        <h3>Your site should include a page where users can interact with your dynamic animal in some way, shape, or form. It must have at least one external stimuli and one internal stimuli.</h3>
+        <h3>Your site must include a page where users can interact with your dynamic animal in some way, shape, or form. It must have reactions to at least one external stimuli and one internal stimuli. Stimuli and reactions must be made with Javascript or Typescript</h3>
         <div>
             <h2>Internal Stimuli</h2>
             <h3>are factors such as time, random chance, etc. They aren't directly affected by user-input or action.</h3>
@@ -96,6 +96,10 @@
         <h3>Your facts panel must include at least three facts.</h3>
         <h3>Once users cycle through all facts (in any order), a button/link should be revealed or unlocked to the interactive demo page.</h3>
         <h3>The panel must include $state and $derived runes</h3>
+    </div>
+     <div class="rule">
+        <h2>+layout.svelte</h2>
+        <h3>Your site must use +layout.svelte and modify it in some way from the provided template.</h3>
     </div>
     <br><br>
     <h2>More questions?</h2>

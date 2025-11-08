@@ -3,17 +3,17 @@
 </svelte:head>
 <script>
     import Navbar from "$lib/navbar.svelte";
-    import Banner from "$lib/banner.svelte";
+    import Banner from "$lib/clubbanner.svelte";
     import Footer from "$lib/footer.svelte";
 </script>
 <style>
     #body {
-        background-color: rgb(47, 90, 79);
+        background-color: rgb(122, 148, 7);
         padding: 40px;
     }
     h1 span {
         font-size: 100px;
-        background-color: rgb(7, 68, 55);
+        background-color: rgb(28, 70, 28);
         padding: 30px;
         border-radius: 360px;
 
@@ -24,8 +24,8 @@
     h1 {
         font-size: 40px;
     }
-    .policy {
-        background-color: rgb(1, 58, 58);
+    .box {
+        background-color: rgb(28, 70, 28);
         padding: 20px;
         margin-bottom: 20px;
     }
@@ -39,7 +39,7 @@
     <h1>The Zoo, for Hack Clubs</h1>
     <h3>For clubs, by a club leader</h3>
     <br>
-    <div class="policy">
+    <div class="box">
         <h2>Page coming soon!</h2>
         <h3>This is part of The Zoo v2</h3>
     </div>
