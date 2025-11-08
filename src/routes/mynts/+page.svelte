@@ -81,20 +81,12 @@
         <h1>1 MYN</h1>
         <h3>for</h3>
         <br>
-        <h2>Each additional hour you spend beyond the base requirement (not beyond 18 hours)</h2>
+        <h2>Each additional hour you spend beyond the base requirement (not beyond 15 hours)</h2>
         <br>
     </div>
     <div class="rank">
         <h3>You can earn</h3>
-        <h1>2 MYN</h1>
-        <h3>for</h3>
-        <br>
-        <h2>Including <em>$effect</em> runes on both your main and interactive page (they must have an individual unique purpose)</h2>
-        <br>
-    </div>
-    <div class="rank">
-        <h3>You can earn</h3>
-        <h1>3 MYN</h1>
+        <h1>1 MYN</h1>
         <h3>for</h3>
         <br>
         <h2>Implementing an easter egg, random chance rare event, etc.</h2>
@@ -103,7 +95,15 @@
     </div>
     <div class="rank">
         <h3>You can earn</h3>
-        <h1>5 MYN</h1>
+        <h1>2 MYN</h1>
+        <h3>for</h3>
+        <br>
+        <h2>Including <a href="https://svelte.dev/docs/svelte/$effect">$effect</a> runes on both your main and interactive page (they must have an individual unique purpose)</h2>
+        <br>
+    </div>
+    <div class="rank">
+        <h3>You can earn</h3>
+        <h1>4 MYN</h1>
         <h3>for</h3>
         <br>
         <h2>Including <a href="https://svelte.dev/docs/svelte/if">if</a> and <a href="https://svelte.dev/docs/svelte/each">each</a> blocks in your site</h2>
@@ -111,10 +111,18 @@
     </div>
     <div class="rank">
         <h3>You can earn</h3>
-        <h1>5 MYN</h1>
+        <h1>4 MYN</h1>
         <h3>for</h3>
         <br>
         <h2>Making your project responsive (must work well on mobile, not just at a basic level)</h2>
+        <br>
+    </div>
+    <div class="rank">
+        <h3>You can earn</h3>
+        <h1>5 MYN</h1>
+        <h3>for</h3>
+        <br>
+        <h2>Making the facts panel a component and using <a href="https://svelte.dev/docs/svelte/$props">$props</a> to transfer information</h2>
         <br>
     </div>
     <div class="rank">

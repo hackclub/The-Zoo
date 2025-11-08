@@ -95,11 +95,11 @@
         <h3>Your site must include a facts panel about your animal on the main page.</h3>
         <h3>Your facts panel must include at least three facts.</h3>
         <h3>Once users cycle through all facts (in any order), a button/link should be revealed or unlocked to the interactive demo page.</h3>
-        <h3>The panel must include $state and $derived runes</h3>
+        <h3>The panel must include <code>$state</code> and <code>$derived</code> runes</h3>
     </div>
      <div class="rule">
         <h2>+layout.svelte</h2>
-        <h3>Your site must use +layout.svelte and modify it in some way from the provided template.</h3>
+        <h3>Your site must use +layout.svelte and modify it in some way from the provided template. Besides your additional modifications, you must also import the <i>pets</i> icon from <a href="https://fonts.google.com/icons?selected=Material+Symbols+Outlined:pets:FILL@0;wght@400;GRAD@0;opsz@24&icon.query=pets&icon.size=24&icon.color=%231f1f1f">Google Fonts</a></h3>
     </div>
     <br><br>
     <h2>More questions?</h2>
