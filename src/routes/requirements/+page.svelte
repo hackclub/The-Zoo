@@ -72,7 +72,11 @@
     </div>
     <div class="rule">
         <h2>Include The Zoo Banner Component</h2>
-        <h3><a href="https://raw.githubusercontent.com/lynn89-sudo/red-panda/refs/heads/main/src/lib/Zoo.svelte">This component</a> must be imported (not copy pasted) into the top of each page on your submission (more on components in the guide on Slack)</h3>
+        <h3><a href="https://raw.githubusercontent.com/lynn89-sudo/red-panda/refs/heads/main/src/lib/Zoo.svelte">This component</a> must be copied into <code>$lib</code> and used at the top of each page on your submission (more on components in the guide on Slack)</h3>
+    </div>
+    <div class="rule">
+        <h2>Additional Component</h2>
+        <h3>Besides the required banner, you must make and use an additional component of your making.</h3>
     </div>
     <div class="rule">
         <h2>Include README</h2>
