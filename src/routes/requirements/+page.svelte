@@ -62,29 +62,28 @@
         <h3>You must log at least 10 full hours of coding for your project on <a href="https://hackatime.hackclub.com">Hackatime</a>. More hours are encouraged and rewarded!</h3>
     </div>
     <div class="rule">
+        <h2>Deployed</h2>
+        <h3>The site must be deployed onto the web and viewable.</h3>
+    </div>
+    <div class="rule">
         <h2>SvelteKit and Static</h2>
         <h3>You must use SvelteKit to make your app (Vite does not pass the vibe check). Documentation can be found <a href="https://svelte.dev">here</a>.</h3>
         <h3>Your site should be static, and hosted on a service such as Github Pages.</h3>
     </div>
     <div class="rule">
-        <h2>Themed around Endangered Animals</h2>
-        <h3>Your site must be themed around an animal that is considered endangered or at risk. Note that no vulgar, violent, or distressing content is allowed.</h3>
+        <h2>Themed around an Animal</h2>
+        <h3>Your site must be themed around an animal, fictional or real. Note that no vulgar, violent, or distressing content is allowed.</h3>
     </div>
     <div class="rule">
-        <h2>Include The Zoo Banner Component</h2>
-        <h3><a href="https://raw.githubusercontent.com/lynn89-sudo/red-panda/refs/heads/main/src/lib/Zoo.svelte">This component</a> must be copied into <code>$lib</code> and used at the top of each page on your submission (more on components in the guide on Slack)</h3>
+        <h2>Facts Panel</h2>
+        <h3>Your site must include a facts panel about your animal on the main page.</h3>
+        <h3>Your facts panel must include at least three facts.</h3>
+        <h3>Once users cycle through all facts (in any order), a button/link should be revealed or unlocked to the interactive demo page.</h3>
+        <h3>The panel must include <code>$state</code> and <code>$derived</code> runes</h3>
     </div>
-    <div class="rule">
-        <h2>Additional Component</h2>
-        <h3>Besides the required banner, you must make and use an additional component of your making.</h3>
-    </div>
-    <div class="rule">
-        <h2>Include README</h2>
-        <h3>Make a README in your repo which includes an overall description of your project along with descriptions of each interactive element/aspect of your animal (along with how you implemented it)</h3>
-    </div>
-    <div class="rule">
+     <div class="rule">
         <h2>Interactive Page</h2>
-        <h3>Your site must include a page where users can interact with your dynamic animal in some way, shape, or form. It must have reactions to at least one external stimuli and one internal stimuli. Stimuli and reactions must be made with Javascript or Typescript</h3>
+        <h3>Your site must include a page where users can interact with your animal in some way, shape, or form. It must have reactions to at least one external stimuli and one internal stimuli. Stimuli and reactions must be made with Javascript.</h3>
         <div>
             <h2>Internal Stimuli</h2>
             <h3>are factors such as time, random chance, etc. They aren't directly affected by user-input or action.</h3>
@@ -95,11 +94,20 @@
         </div>
     </div>
     <div class="rule">
-        <h2>Facts Panel</h2>
-        <h3>Your site must include a facts panel about your animal on the main page.</h3>
-        <h3>Your facts panel must include at least three facts.</h3>
-        <h3>Once users cycle through all facts (in any order), a button/link should be revealed or unlocked to the interactive demo page.</h3>
-        <h3>The panel must include <code>$state</code> and <code>$derived</code> runes</h3>
+        <h2>Include README</h2>
+        <h3>Make a README in your repo which includes an overall description of your project along with descriptions of each interactive element/aspect of your animal (along with how you implemented it)</h3>
+    </div>
+    <div class="rule">
+        <h2>Include The Zoo Banner Component</h2>
+        <h3><a href="https://raw.githubusercontent.com/lynn89-sudo/red-panda/refs/heads/main/src/lib/Zoo.svelte">This component</a> must be copied into <code>lib</code> and used at the top of each page on your submission (more on components in the guide on Slack)</h3>
+    </div>
+    <div class="rule">
+        <h2>Additional Component</h2>
+        <h3>Besides the required banner, you must make and use an additional component of your making.</h3>
+    </div>
+     <div class="rule">
+        <h2>error.svelte</h2>
+        <h3>Include a <a href="https://svelte.dev/docs/kit/routing#error">+error.svelte</a> page on your site</h3>
     </div>
      <div class="rule">
         <h2>+layout.svelte</h2>

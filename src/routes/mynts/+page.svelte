@@ -86,15 +86,6 @@
     </div>
     <div class="rank">
         <h3>You can earn</h3>
-        <h1>1 MYN</h1>
-        <h3>for</h3>
-        <br>
-        <h2>Implementing an easter egg, random chance rare event, etc.</h2>
-        <br><h4>*Easter eggs must be a chance driven event or a hidden event. This is separate from the normal path that users take for your project.</h4>
-        <br>
-    </div>
-    <div class="rank">
-        <h3>You can earn</h3>
         <h1>2 MYN</h1>
         <h3>for</h3>
         <br>
