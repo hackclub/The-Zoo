@@ -43,11 +43,11 @@
     <br>
     <div class="policy">
         <h2>Identity Vault Verification</h2>
-        <h3>No staff member outside HCB's operations team can access your data in the Identity Vault at <a href="https://identity.hackclub.com">identity.hackclub.com</a>. The Zoo staff will only receive a yes or no as to if you are verified and eligible to participate.</h3>
+        <h3>No staff member outside HCB's operations team can directly access your data in the Identity Vault at <a href="https://identity.hackclub.com">identity.hackclub.com</a>. The Zoo staff will only receive your full legal name, email, and eligibility to participate.</h3>
     </div>
     <div class="policy">
         <h2>Authorized access to information</h2>
-        <h3>Only individuals under Hack Club's NDA can access your data directly.</h3>
+        <h3>Only individuals under Hack Club's NDA can access your submission data directly. All Zoo staff members are under NDA.</h3>
     </div>
     <div class="policy">
         <h2>Using AI to analyze data</h2>
@@ -55,7 +55,7 @@
     </div>
     <div class="policy">
         <h2>APIs containing personal information</h2>
-        <h3>No public APIs, behind auth or not, will contain personal information, such as emails, names or addresses. All personal information will be securely stored directly on Airtable or locally.</h3>
+        <h3>No public APIs, behind auth or not, will contain personal information, such as emails, names or addresses. All personal information will be securely stored directly on Airtable, Fillout, or locally.</h3>
     </div>
     <br><br>
     <h2>More questions?</h2>

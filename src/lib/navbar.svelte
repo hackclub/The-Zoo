@@ -61,7 +61,7 @@
         height: 105px;
     }
 
-    @media (max-width: 750px) {
+    @media (max-width: 950px) {
         #navbar {
             height: 70px;
         }
@@ -70,6 +70,9 @@
         }
         #spacing {
             height: 70px;
+        }
+        .navbutton {
+            font-size: 8px;
         }
     }
 
@@ -88,6 +91,11 @@
         }
         #buttons {
             top: 30px;
+        }
+        @media screen and (max-width: 950px) {
+            #buttons {
+                top: 10px;
+            }
         }
     }
 </style>

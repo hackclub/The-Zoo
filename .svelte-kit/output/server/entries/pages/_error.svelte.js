@@ -55,7 +55,7 @@ const page$1 = {
 const page = page$1;
 function _error($$payload, $$props) {
   push();
-  $$payload.out.push(`<br class="svelte-1kpc4ue"/> <h2 class="svelte-1kpc4ue">Uh oh :(</h2> <h1 class="svelte-1kpc4ue">${escape_html(page.status)}: ${escape_html(page.error.message)}</h1>`);
+  $$payload.out.push(`<br class="svelte-1kpc4ue"/> <h2 class="svelte-1kpc4ue">Uh oh :(</h2> <h1 class="svelte-1kpc4ue">${escape_html(page.status)}: ${escape_html(page.error.message)}</h1> <h3 class="svelte-1kpc4ue">Redirecting to home in two seconds</h3>`);
   pop();
 }
 export {

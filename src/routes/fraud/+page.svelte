@@ -44,7 +44,7 @@
     <br>
     <div class="policy">
         <h2>Created by someone not in Middle School or High School</h2>
-        <h3>This program is only open to those in Middle School and High School. Those 19 or above are not allowed to participate.</h3>
+        <h3>This program is only open to those in High School. Those 19 or above and 12 or below are not allowed to participate; those under 13 that participate will not be able to recieve any prizes from Hack Club for completion.</h3>
     </div>
     <div class="policy">
         <h2>Extensive use of AI</h2>

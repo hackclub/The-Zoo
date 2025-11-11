@@ -290,7 +290,7 @@
     <br><br>
 </div>
 <div id="countdown">
-    <h2>V2 of The Zoo is coming soon</h2>
+    <h2>V2 of The Zoo is coming this Sunday! </h2>
     <br>
     <h3>Once submissions are open, you'll see a link here</h3>
     <br>
@@ -302,7 +302,7 @@
     <h3>View the project requirements here</h3>
     <button onclick = { window.location.href = "/requirements" }><h2>View Requirements</h2></button>
     <br><br>
-    <h3>This is a mid/high level project example.</h3>
+    <h3>This is a mid/high level project example. Note that this project is from V1, and requirements for V2 are more extensive; however, this project is a useful example for the facts panel and interactive page nontheless.</h3>
     <button onclick = { window.location.href = "https://lynn89-sudo.github.io/red-panda" }><h2>Take me there!</h2></button>
     <br><br><br><br>
     <img src="pig.png" alt = "Pig Plushie"/>
@@ -342,7 +342,13 @@
         <h2>How old must I be to participate?</h2>
         <button translate="no" onclick = { faq = 5 }><span class="material-symbols-outlined">arrow_drop_down_circle</span></button>
         <br><br>
-        <h3 class:on = { faq == 5 }>You must be in Middle School or High School to participate.</h3>
+        <h3 class:on = { faq == 5 }>You must be in Middle School or High School to participate. Only those 13-18 can recieve prizes.</h3>
+    </div>
+     <div>
+        <h2>If I did Version 1, can I still participate in Version 2?</h2>
+        <button translate="no" onclick = { faq = 8 }><span class="material-symbols-outlined">arrow_drop_down_circle</span></button>
+        <br><br>
+        <h3 class:on = { faq == 8 }>Yes; however, we'll be comparing your two submissions and expect to see progress and greater improvement!</h3>
     </div>
     <div>
         <h2>How many projects can I submit?</h2>

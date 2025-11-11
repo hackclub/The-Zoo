@@ -25,7 +25,7 @@
         color: white;
     }
     .service:hover {
-        background-color: rgb(84, 84, 184);
+        background-color: rgb(86, 110, 161);
     }
     #globe {
         margin: 0 auto;
@@ -61,6 +61,7 @@
         <button class="service" onclick = { window.location.href = "https://amazon.com" }><h2>Amazon</h2></button><br>
         <button class="service" onclick = { window.location.href = "https://shopee.com" }><h2>Shopee</h2></button><br>
         <button class="service" onclick = { window.location.href = "https://ebay.com" }><h2>eBay</h2></button><br>
+        <button class="service" onclick = { window.location.href = "https://www.miniso.com/" }><h2>Miniso</h2></button><br>
         <br>
         <h4>*We are not able to support local vendors, you must buy your plushie from an online (reliable) shipping service.</h4>
     </div>
