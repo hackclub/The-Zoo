@@ -135,6 +135,13 @@
             cursor: grab;
             width: 33.5%;
         }
+
+        button {
+            background-color: rgb(30, 61, 65);
+        }
+        button:hover {
+            background-color: rgb(84, 116, 116);
+        }
     }
     @media (max-width: 750px) {
         #countdown img {
@@ -290,9 +297,9 @@
     <br><br>
 </div>
 <div id="countdown">
-    <h2>V2 of The Zoo is coming this Sunday! </h2>
+    <h2>Submissions for V2 are open now!</h2>
     <br>
-    <h3>Once submissions are open, you'll see a link here</h3>
+    <a href="https://submit.hackclub.com/zoo"><button><h2>Submit</h2></button></a>
     <br>
     <img src="whale.png" alt="Whale Plushie"/>
 </div>
@@ -365,3 +372,4 @@
 </div>
 <Footer />
 
+ 
