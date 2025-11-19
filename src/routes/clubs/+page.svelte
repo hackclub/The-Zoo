@@ -15,7 +15,7 @@
     }
     h1 span {
         font-size: 100px;
-        background-color: rgb(36, 28, 70);
+        background-color: rgba(76, 68, 112, 1);
         padding: 30px;
         border-radius: 360px;
 
@@ -27,12 +27,12 @@
         font-size: 40px;
     }
     .box {
-        background-color: rgb(28, 70, 28);
+        background-color: rgba(25, 103, 105, 1);
         padding: 20px;
         margin-bottom: 20px;
     }
     .requirement {
-        background-color: green;
+        background-color: rgba(67, 147, 150, 1);
         padding: 10px;
         font-family: Space Mono
     }
