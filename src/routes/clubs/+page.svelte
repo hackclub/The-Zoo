@@ -47,7 +47,7 @@
     <h3 style:font-family="Space Mono, Montserrat, Futura">Workshop Version</h3>
     <br>
     <div class="box">
-        <h2>Ready to submit your work?</h2>
+        <h2><br>Ready to submit your work?</h2>
         <h3>Check over the requirements here:</h3>
         <br>
         <div class="requirement"><h3>Build your site on SvelteKit and statically host it.</h3></div><br>
@@ -55,7 +55,8 @@
         <div class="requirement"><h3>Include the animal itself in your site and use runes to change the image of the animal itself to create dynamic reactions upon interaction (click, hover, etc.)</h3></div><br>
         <div class="requirement"><h3>Make a README in your repo which includes an overall description of your project along with descriptions of each interactive element/aspect of your animal (along with how you implemented it)</h3></div><br>
         <div class="requirement"><h3><a style:color="white" href="https://raw.githubusercontent.com/lynn89-sudo/red-panda/refs/heads/main/src/lib/Zoo.svelte">This component</a> must be copied into lib and used at the top of each page on your submission</h3></div><br>
-
+        <br>
+        <h2><button onclick={() => {window.location.href = "https://submit.hackclub.com/zoo"}}>Submit here</button></h2>
     </div>
     <div class="box">
         <h2>Are you a club leader?</h2>
