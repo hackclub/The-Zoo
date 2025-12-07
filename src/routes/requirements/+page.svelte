@@ -81,7 +81,7 @@
         <h3>Once users cycle through all facts (in any order), a button/link should be revealed or unlocked to the interactive demo page.</h3>
         <h3>The panel must include <code>$state</code> and <code>$derived</code> runes</h3>
         <br>
-        <h3>*If you know Svelte or are comfortable with component-based frameworks, using the panel format is not required; however, using runes to dynamically update information in som, way, shape, or form is required. Making a panel opens less chance to us asking you to improve your project. Feel free to propose your idea in #the-zoo channel and get feedback before you get started!</h3>
+        <h3>*If you know Svelte or are comfortable with component-based frameworks, using the panel format is not required; however, using runes to dynamically update information in some way, shape, or form is required. Making a panel opens less chance to us asking you to improve your project. Feel free to propose your idea in #the-zoo channel and get feedback before you get started!</h3>
     </div>
      <div class="rule">
         <h2>Interactive Page</h2>
