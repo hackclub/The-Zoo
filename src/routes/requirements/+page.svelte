@@ -6,6 +6,14 @@
     import Navbar from "$lib/navbar.svelte";
     import Banner from "$lib/banner.svelte";
     import Footer from "$lib/footer.svelte";
+
+    import { onMount } from "svelte";
+
+    let mode = $state(1);
+    onMount(() => {
+        mode = localStorage.getItem("mode");
+    })
+    
 </script>
 <style>
     #body {
@@ -72,49 +80,73 @@
     </div>
     <div class="rule">
         <h2>Themed around an Animal</h2>
-        <h3>Your site must be themed around an animal, fictional or real. Note that no vulgar, violent, or distressing content is allowed.</h3>
+        <h3>Your site must be themed around an animal, fictional or real, and inform users about the animal. Note that no vulgar, violent, or distressing content is allowed.</h3>
     </div>
-    <div class="rule">
-        <h2>Facts Panel</h2>
-        <h3>Your site must include a facts panel about your animal on the main page.</h3>
-        <h3>Your facts panel must include at least three facts.</h3>
-        <h3>Once users cycle through all facts (in any order), a button/link should be revealed or unlocked to the interactive demo page.</h3>
-        <h3>The panel must include <code>$state</code> and <code>$derived</code> runes</h3>
-        <br>
-        <h3>*If you know Svelte or are comfortable with component-based frameworks, using the panel format is not required; however, using runes to dynamically update information in some way, shape, or form is required. Making a panel opens less chance to us asking you to improve your project. Feel free to propose your idea in #the-zoo channel and get feedback before you get started!</h3>
-    </div>
-     <div class="rule">
-        <h2>Interactive Page</h2>
-        <h3>Your site must include a page where users can interact with your animal in some way, shape, or form. It must have reactions to at least one external stimuli and one internal stimuli. Stimuli and reactions must be made with Javascript.</h3>
-        <div>
-            <h2>Internal Stimuli</h2>
-            <h3>are factors such as time, random chance, etc. They aren't directly affected by user-input or action.</h3>
+    {#if (mode == 1)}
+        <div class="rule">
+            <h2>Facts Panel</h2>
+            <h3>Your site must include a facts panel about your animal on the main page.</h3>
+            <h3>Your facts panel must include at least three facts.</h3>
+            <h3>Once users cycle through all facts (in any order), a button/link should be revealed or unlocked to the interactive demo page.</h3>
+            <h3>The panel must include <code>$state</code> and <code>$derived</code> runes</h3>
         </div>
-        <div>
-            <h2>External Stimuli</h2>
-            <h3>are factors such as user clicks, mouse movement, etc. They are directly affected by user-input and action.</h3>
+        <div class="rule">
+            <h2>Interactive Page</h2>
+            <h3>Your site must include a page where users can interact with your animal in some way, shape, or form. It must have reactions to at least one external stimuli and one internal stimuli. Stimuli and reactions must be made with Javascript.</h3>
+            <div>
+                <h2>Internal Stimuli</h2>
+                <h3>are factors such as time, random chance, etc. They aren't directly affected by user-input or action.</h3>
+            </div>
+            <div>
+                <h2>External Stimuli</h2>
+                <h3>are factors such as user clicks, mouse movement, etc. They are directly affected by user-input and action.</h3>
+            </div>
         </div>
-    </div>
-    <div class="rule">
-        <h2>Include README</h2>
-        <h3>Make a README in your repo which includes an overall description of your project along with descriptions of each interactive element/aspect of your animal (along with how you implemented it)</h3>
-    </div>
+        <div class="rule">
+            <h2>Include README</h2>
+            <h3>Make a README in your repo which includes an overall description of your project along with descriptions of each interactive element/aspect of your animal (along with how you implemented it)</h3>
+        </div>
+    {/if}
     <div class="rule">
         <h2>Include The Zoo Banner Component</h2>
-        <h3><a href="https://raw.githubusercontent.com/lynn89-sudo/red-panda/refs/heads/main/src/lib/Zoo.svelte">This component</a> must be copied into <code>lib</code> and used at the top of each page on your submission (more on components in the guide on Slack)</h3>
+        <h3><a href="https://raw.githubusercontent.com/lynn89-sudo/red-panda/refs/heads/main/src/lib/Zoo.svelte">This component</a> must be copied into <code>lib</code> and used at the top of each page on your submission (more on components in the guide on Slack). The style of the component can be modified; however, the content, icon, and functionality must remain.</h3>
     </div>
-    <div class="rule">
-        <h2>Additional Component</h2>
-        <h3>Besides the required banner, you must make and use an additional component of your making.</h3>
-    </div>
-     <div class="rule">
-        <h2>error.svelte</h2>
-        <h3>Include a <a href="https://svelte.dev/docs/kit/routing#error">+error.svelte</a> page on your site</h3>
-    </div>
-     <div class="rule">
-        <h2>+layout.svelte</h2>
-        <h3>Your site must use +layout.svelte and modify it in some way from the provided template. Besides your additional modifications, you must also import the <i>pets</i> icon from <a href="https://fonts.google.com/icons?selected=Material+Symbols+Outlined:pets:FILL@0;wght@400;GRAD@0;opsz@24&icon.query=pets&icon.size=24&icon.color=%231f1f1f">Google Fonts</a></h3>
-    </div>
+    {#if (mode == 1)}
+        <div class="rule">
+            <h2>Additional Component</h2>
+            <h3>Besides the required banner, you must make and use an additional component of your making.</h3>
+        </div>
+        <div class="rule">
+            <h2>error.svelte</h2>
+            <h3>Include a <a href="https://svelte.dev/docs/kit/routing#error">+error.svelte</a> page on your site</h3>
+        </div>
+        <div class="rule">
+            <h2>+layout.svelte</h2>
+            <h3>Your site must use +layout.svelte and modify it in some way from the provided template. Besides your additional modifications, you must also import the <i>pets</i> icon from <a href="https://fonts.google.com/icons?selected=Material+Symbols+Outlined:pets:FILL@0;wght@400;GRAD@0;opsz@24&icon.query=pets&icon.size=24&icon.color=%231f1f1f">Google Fonts</a></h3>
+        </div>
+    {:else}
+        <div class="rule">
+            <h2>Get Project Approval</h2>
+            <h3>Before getting started on a project in expert mode, it must get approval by zoo staff in <em>#the-zoo</em> channel. You must post a proposal message in the channel that includes the following:</h3>
+            <div>
+                <h2>Animal Description</h2>
+                <h3>What is your animal?</h3>
+            </div>
+            <div>
+                <h2>Displaying Information</h2>
+                <h3>How are you conveying facts and information about your animal? Think about unique ways to do this that take advantage of the Svelte framework.</h3>
+            </div>
+            <div>
+                <h2>Interactive Features</h2>
+                <h3>What will your interactive animal page look like?</h3>
+            </div>
+            <div>
+                <h2>*Concept Art</h2>
+                <h3>This isn't required; however, it will bolster your chances of getting approved sooner.</h3>
+            </div>
+        </div>
+    {/if}
+
     <br><br>
     <h2>More questions?</h2>
     <h3>Hop onto <em>#the-zoo</em> channel in Hack Club's Slack</h3>

@@ -30,9 +30,9 @@
       "_equality.js"
     ]
   },
-  "_footer.CPgi2F19.css": {
-    "file": "_app/immutable/assets/footer.CPgi2F19.css",
-    "src": "_footer.CPgi2F19.css"
+  "_footer.B2VOox_H.css": {
+    "file": "_app/immutable/assets/footer.B2VOox_H.css",
+    "src": "_footer.B2VOox_H.css"
   },
   "_footer.js": {
     "file": "chunks/footer.js",
@@ -41,7 +41,7 @@
       "_index.js"
     ],
     "css": [
-      "_app/immutable/assets/footer.CPgi2F19.css"
+      "_app/immutable/assets/footer.B2VOox_H.css"
     ]
   },
   "_index.js": {
@@ -55,12 +55,6 @@
       "_index.js",
       "_equality.js"
     ]
-  },
-  "node_modules/@sveltejs/kit/src/runtime/components/svelte-5/layout.svelte": {
-    "file": "entries/fallbacks/layout.svelte.js",
-    "name": "entries/fallbacks/layout.svelte",
-    "src": "node_modules/@sveltejs/kit/src/runtime/components/svelte-5/layout.svelte",
-    "isEntry": true
   },
   "node_modules/@sveltejs/kit/src/runtime/server/index.js": {
     "file": "index.js",
@@ -85,6 +79,18 @@
     ],
     "css": [
       "_app/immutable/assets/_error.C4nPqAcL.css"
+    ]
+  },
+  "src/routes/+layout.svelte": {
+    "file": "entries/pages/_layout.svelte.js",
+    "name": "entries/pages/_layout.svelte",
+    "src": "src/routes/+layout.svelte",
+    "isEntry": true,
+    "imports": [
+      "_index.js"
+    ],
+    "css": [
+      "_app/immutable/assets/_layout.Daspzif-.css"
     ]
   },
   "src/routes/+page.svelte": {

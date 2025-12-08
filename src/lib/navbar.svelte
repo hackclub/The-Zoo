@@ -1,5 +1,6 @@
 <script>
     import { onMount } from "svelte";
+    let mode = $state(1);
     onMount(function() {
         setTimeout(function(){document.getElementById("navbar").classList.remove("active");}, 200);
     })
@@ -12,7 +13,7 @@
         left: 0;
         right: 0;
         height: 105px;
-        z-index: 1000;
+        z-index: 999;
         overflow: hidden;
         background-color: rgba(40, 143, 40, 0.955);
         transition: background-color 0.3s ease-in-out, height 0.5s ease-in-out, border-bottom-right-radius 0.5s ease-in-out, border-bottom-left-radius 0.5s ease-in-out;

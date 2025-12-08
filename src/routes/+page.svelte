@@ -13,20 +13,16 @@
     import Footer from "$lib/footer.svelte"
     import { onMount } from "svelte";
 
+    let mode = $state(1);
+    onMount(() => {
+        mode = localStorage.getItem("mode");
+    })
+
     let faq = $state(0);
 
     let width = $state(true);
     let select1 = $state("bobaD");
     onMount(function() {
-        if (window.matchMedia("(max-width: 750px)").matches) {
-            width = true;
-        }
-        else {
-            width = false;
-        }
-
-
-        function resize(e) {
             if (window.matchMedia("(max-width: 750px)").matches) {
                 width = true;
             }
@@ -34,15 +30,24 @@
                 width = false;
             }
 
-            if (!width) {
-                select1 = "bobaD"; //D
+
+            function resize(e) {
+                if (window.matchMedia("(max-width: 750px)").matches) {
+                    width = true;
+                }
+                else {
+                    width = false;
+                }
+
+                if (!width) {
+                    select1 = "bobaD"; //D
+                }
+                else {
+                    select1 = "bobaV";
+                }
             }
-            else {
-                select1 = "bobaV";
-            }
-        }
-        resize(window.matchMedia("(max-width: 750px)").matches);
-    })
+            resize(window.matchMedia("(max-width: 750px)").matches);
+            })
 </script>
 <style>
     a {
@@ -280,7 +285,11 @@
     <h2 style="font-size: 70px;">Mynts</h2>
     <h3>are the currency you earn for your animals in the zoo. The better your submissions are, the more mynts you earn.</h3>
     <br>
-    <h2><span style="background-color: rgb(100,100,60)">1 MYN = 0.75 USD</span></h2>
+    {#if (mode == 1)} 
+        <h2><span style="background-color: rgb(100,100,60)">1.0 MYN = 0.65 USD</span></h2>
+    {:else}
+        <h2><span style="background-color: rgb(100,100,60)">1.0 MYN = 1.0 USD</span></h2>
+    {/if}
     <br><br>
     <button onclick={ window.location.href = "/mynts" }><h2>How do I earn mynts?</h2></button>
     <br><br>
@@ -297,7 +306,8 @@
     <br><br>
 </div>
 <div id="countdown">
-    <h2>Submissions for V2 are open now!</h2>
+    <h2>Submissions for V2 are open now!</h2><br>
+    <h3>Submissions close on Dec. 31st at 11:59PM Eastern Time</h3>
     <br>
     <a href="https://submit.hackclub.com/zoo"><button><h2>Submit</h2></button></a>
     <br>
