@@ -78,6 +78,6 @@
         {:else}
         <h3>With beginner mode, you will get a more guided experience; the requirements for your project will be clearer and layed out. You should choose this mode if you have web-development experience, but this is your first time using Svelte or even any component-based framework. Note that this mode gives less rewards compared to expert mode.</h3>
         {/if}
-        <h2 style:margin-top=50px ><button onclick={()=> {overlayToggle = false; window.location.href = base + "/";}}>Return</button></h2>
+        <h2 style:margin-top=50px ><button onclick={()=> {overlayToggle = false; window.location.href = base;}}>Return</button></h2>
     </div>
 {/if}

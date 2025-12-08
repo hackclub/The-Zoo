@@ -73,7 +73,7 @@
     <br><br>
     <h3>In a nutshell, mynts are the currency you earn for your animals in the zoo. The better your submissions are, the more mynts you earn.</h3>
     {#if mode==1}
-        <h3>Throughout the duration of the YSWS, your mynts are added up. By the end, after everything is finalized, you will get an <a href="https://hcb.hackclub.com">HCB</a> grant equivalent to the amount of mynts you earned (1.0 MYN = 0.65 USD). Whatever your choice of plushie costs + delivery fees (or just pick it up for less) is the amount of mynts you will need</h3>    <br><br><br>
+        <h3>Throughout the duration of the YSWS, your mynts are added up. By the end, after everything is finalized, you will get an <a href="https://hcb.hackclub.com">HCB</a> grant equivalent to the amount of mynts you earned (1.0 MYN = 0.75 USD). Whatever your choice of plushie costs + delivery fees (or just pick it up for less) is the amount of mynts you will need</h3>    <br><br><br>
     {:else}
         <h3>After completion of the base requirements, you will get awarded a certain amounts of Mynts based on projects quality; no less than 5 and no more than 50 MYN. By the end, after everything is finalized, you will get an <a href="https://hcb.hackclub.com">HCB</a> grant equivalent to the amount of mynts you earned (1.0 MYN = 1.0 USD). Whatever your choice of plushie costs + delivery fees (or just pick it up for less) is the amount of mynts you will need</h3>    <br><br><br>
     {/if}

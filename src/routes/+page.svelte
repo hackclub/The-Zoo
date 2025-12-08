@@ -286,7 +286,7 @@
     <h3>are the currency you earn for your animals in the zoo. The better your submissions are, the more mynts you earn.</h3>
     <br>
     {#if (mode == 1)} 
-        <h2><span style="background-color: rgb(100,100,60)">1.0 MYN = 0.65 USD</span></h2>
+        <h2><span style="background-color: rgb(100,100,60)">1.0 MYN = 0.75 USD</span></h2>
     {:else}
         <h2><span style="background-color: rgb(100,100,60)">1.0 MYN = 1.0 USD</span></h2>
     {/if}
@@ -327,7 +327,7 @@
 <div id="faq">
     <h1><span>FAQ</span></h1>
     <br>
-    <h3>If it helped Oscar, it should help you too ^w^</h3>
+    <h3>If it helped Oskar, it should help you too ^w^</h3>
     <br>
     <img src="octo.png" alt="Ollie the Octopus"/>
     <br><br>
@@ -341,7 +341,7 @@
         <h2>How many mynts do I need to buy a plushie and how do I use them?</h2>
         <button translate="no" onclick = { faq = 2 }><span class="material-symbols-outlined">arrow_drop_down_circle</span></button>
         <br><br>
-        <h3 class:on = { faq == 2 }>Throughout the duration of the YSWS, your mynts are added up. By the end, after everything is finalized, you will get an <a href="https://hcb.hackclub.com">HCB</a> grant equivalent to the amount of mynts you earned (1 MYN = 0.75 USD). Whatever your choice of plushie costs + delivery fees (or just pick it up for less) is the amount of mynts you will need!</h3>
+        <h3 class:on = { faq == 2 }>Throughout the duration of the YSWS, your mynts are added up. By the end, after everything is finalized, you will get an <a href="https://hcb.hackclub.com">HCB</a> grant equivalent to the amount of mynts you earned. Whatever your choice of plushie costs + delivery fees (or just pick it up for less) is the amount of mynts you will need!</h3>
     </div>
     <div>
         <h2>What if I live in a region or country without an Ikea?</h2>

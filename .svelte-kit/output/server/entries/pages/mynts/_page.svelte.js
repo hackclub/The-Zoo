@@ -12,7 +12,7 @@ function _page($$payload, $$props) {
   $$payload.out.push(`<!----> <div id="main" class="svelte-13if00f"><h2 style="font-size: 40px;">How to earn Mynts</h2> <br/> <img src="mynt.png" alt="Mynt Coin" id="coin" class="svelte-13if00f"/> <br/><br/> <h3>In a nutshell, mynts are the currency you earn for your animals in the zoo. The better your submissions are, the more mynts you earn.</h3> `);
   {
     $$payload.out.push("<!--[-->");
-    $$payload.out.push(`<h3>Throughout the duration of the YSWS, your mynts are added up. By the end, after everything is finalized, you will get an <a href="https://hcb.hackclub.com" class="svelte-13if00f">HCB</a> grant equivalent to the amount of mynts you earned (1.0 MYN = 0.65 USD). Whatever your choice of plushie costs + delivery fees (or just pick it up for less) is the amount of mynts you will need</h3> <br/><br/><br/>`);
+    $$payload.out.push(`<h3>Throughout the duration of the YSWS, your mynts are added up. By the end, after everything is finalized, you will get an <a href="https://hcb.hackclub.com" class="svelte-13if00f">HCB</a> grant equivalent to the amount of mynts you earned (1.0 MYN = 0.75 USD). Whatever your choice of plushie costs + delivery fees (or just pick it up for less) is the amount of mynts you will need</h3> <br/><br/><br/>`);
   }
   $$payload.out.push(`<!--]--> `);
   {
