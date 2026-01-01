@@ -306,10 +306,8 @@
     <br><br>
 </div>
 <div id="countdown">
-    <h2>Submissions for V2 are open now!</h2><br>
-    <h3>Submissions close on Dec. 31st at 11:59PM Eastern Time</h3>
-    <br>
-    <a href="https://submit.hackclub.com/zoo"><button><h2>Submit</h2></button></a>
+    <h2>Submissions for V2 are now closed</h2><br>
+    <h3>Projects are currently under review. Thanks to everyone that participated!</h3>
     <br>
     <img src="whale.png" alt="Whale Plushie"/>
 </div>
