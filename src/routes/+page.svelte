@@ -307,7 +307,7 @@
 </div>
 <div id="countdown">
     <h2>Submissions for V2 are now closed</h2><br>
-    <h3>Projects are currently under review. Thanks to everyone that participated!</h3>
+    <h3>Thanks to everyone that participated!</h3>
     <br>
     <img src="whale.png" alt="Whale Plushie"/>
 </div>
